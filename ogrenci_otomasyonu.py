@@ -7,6 +7,7 @@ while True:
         """
         1. Öğrenci Girişi
         2. Öğretmen Girişi
+        3. Çıkış
         """
     )
     işlem = input("Lütfen bir işlem seçiniz: ")
@@ -111,6 +112,9 @@ while True:
 
             else:
                 print("Geçersiz işlem, tekrar deneyin.")
+    elif işlem=='3':
+        print("çıkış yapılıyor iyi günler....")
+        break
 
     else:
         print("Geçersiz işlem, lütfen tekrar deneyin.")
